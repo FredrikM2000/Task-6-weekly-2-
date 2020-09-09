@@ -26,7 +26,7 @@ int main() {
 		std::cout << "Fail";
 		break;
 	default:
-		std::cout << "Not valid option";
+		std::cout << "That is not a grade!";
 	}
 
 

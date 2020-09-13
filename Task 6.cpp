@@ -1,5 +1,4 @@
 #include <iostream>
-
 int main() {
 	char grade;
 
@@ -7,27 +6,25 @@ int main() {
 	std::cin >> grade;
 
 	switch(grade) {
-	case 'A': case 'a':
+	case 'A':
 		std::cout << "Outstanding!";
 		break;
-	case 'B': case 'b':
+	case 'B':
 		std::cout << "Very good!";
 		break;
-	case 'C': case 'c':
+	case 'C':
 		std::cout << "Good";
 		break;
-	case 'D': case 'd':
+	case 'D':
 		std::cout << "Some flaws";
 		break;
-	case 'E': case 'e':
+	case 'E':
 		std::cout << "Not very good...";
 		break;
-	case 'F': case 'f':
+	case 'F':
 		std::cout << "Fail";
 		break;
 	default:
 		std::cout << "That is not a grade!";
 	}
-
-
 }
